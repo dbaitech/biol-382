@@ -7,6 +7,7 @@ More importantly, in the original HH model, the injected current is supplied int
 This repository contains the following files:
 1. reimplementation.ipynb: Reimplements a selection of the original paper's model validations (see Section 5 of Giannari et al.)
 2. synaptic_scaling_extension.ipynb: Implements and demonstrates the synaptic scaling novel extension
+3. exntension_sink_3_neurons.ipynb: Implements synaptic scaling for a network where two neurons transmit to a third neuron (each with a different connection weight), demonstrating that synaptic scaling maintains the relative connection weights.
 
 ## Citations
 Giannari, A. G., & Astolfi, A. (2022). Model design for networks of heterogeneous Hodgkin–Huxley neurons. Neurocomputing, 496, 147–157.
